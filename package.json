@@ -1,0 +1,24 @@
+{
+  "name": "api-graphql-tcc",
+  "version": "1.0.0",
+  "description": "API GraphQL TCC",
+  "main": "server.js",
+  "keywords": [
+    "GraphQL",
+    "API"
+  ],
+  "author": "Ayslan Marcelino",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^15.0.0",
+    "graphql-tools": "^5.0.0",
+    "mongodb": "^3.5.7"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {}
+}
