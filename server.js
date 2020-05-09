@@ -8,7 +8,7 @@ const cors = require('cors');
 let db = null;
 const url = 'mongodb://localhost:27017';
 const dbName = 'GraphQLdb';
-const door = 3000;
+const door = 3001;
 
 app.use(cors());
 
@@ -47,14 +47,24 @@ const typeDefs = `
     code: Float,
     name: String,
     age: Int,
-    email: String
+    email: String,
+    cpf: Int,
+    rg: Int,
+    nickname: String,
+    cellphone: Int,
+    gender: String,
   }
 
   input inputPerson {
     code: Float,
     name: String,
     age: Int,
-    email: String
+    email: String,
+    cpf: Int,
+    rg: Int,
+    nickname: String,
+    cellphone: Int,
+    gender: String,
   }
 
   type Query {
